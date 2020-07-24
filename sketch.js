@@ -48,13 +48,13 @@ function readData() {
     })
 }
 
-// function clearDrawing() {
-//     db_drawing = []
-//     var drawingRef = database.ref('drawing')
-//     drawingRef.set({
-//         "d": []
-//     })
-// }
+ function clearDrawing() {
+     db_drawing = []
+     var drawingRef = database.ref('drawing')
+     drawingRef.set({
+         "d": []
+     })
+ }
 
 function clearDrawing() {
     db_drawing = [];
